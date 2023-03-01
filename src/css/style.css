@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2 {
+  font-weight: 400;
+}
+h3 {
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #1b1a17;
+}
+button {
+  border: none;
+  background: none;
+}
+button:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+button > img:hover {
+  color: goldenrod;
+  fill: currentColor;
+}
+footer {
+  background-color: #444240;
+  color: white;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  padding-bottom: 33px;
+}

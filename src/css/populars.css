@@ -1,0 +1,66 @@
+.populars {
+  margin: 0 100px 80px 100px;
+  height: 600px;
+}
+.populars__content {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 25px;
+  align-items: center;
+  justify-items: center;
+}
+.populars__content__items {
+  max-width: 330px;
+  max-height: 470px;
+  padding: 40px;
+  background-color: #fdfdfb;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ellipse {
+  box-sizing: border-box;
+  background: linear-gradient(#fdfdfb, #fdfdfb) padding-box,
+    linear-gradient(to left, #e9e3d4, #e2d0c400) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+}
+.populars__content__button {
+  display: flex;
+  align-items: center;
+}
+.populars__content__button::before {
+  margin: 10px 20px 0 0;
+  content: "";
+  display: flex;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 30px;
+  border-top: 1px solid #8b8371;
+}
+.populars__header {
+  display: grid;
+  justify-items: center;
+  align-items: baseline;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: auto;
+}
+.popular__header__button {
+  margin-left: auto;
+  margin-right: 0;
+}
+.popular__header__button > button {
+  font-weight: 500;
+  font-size: 16px;
+}
+.popular__header__button::after {
+  margin-top: 10px;
+  content: "";
+  display: flex;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 100%;
+  border-top: 1px solid #c4c0b6;
+}
